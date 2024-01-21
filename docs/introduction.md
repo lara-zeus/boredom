@@ -4,29 +4,35 @@ weight: 1
 ---
 
 ## Introduction
-@zeus Inline Chart to easily add a chart in filamentPHP table column
 
-**[Demo](https://demo.larazeus.com/admin/components-demo/inline-chart) · [Github](https://github.com/lara-zeus/inline-chart) · [Discord](#)**
+@zeus use Boring Avatars as the default avatar provider in your FilamentPHP v3 application
+
+**[Demo](https://demo.larazeus.com/admin/components-demo/boredom) · [Github](https://github.com/lara-zeus/boredom) · [Discord](#)**
 
 ## Features
 
-- 🔥 Use any filament chart classes
-- 🔥 Better tooltip
-- 🔥 Use any widget type
-- 🔥 Max Width
-- 🔥 Polling
+- 🔥 configurable per panel
+- 🔥 set Variant (marble, beam, pixel, sunset, ring or bauhaus)
+- 🔥 Custom size
+- 🔥 Custom colors
+- 🔥 Square avatars
+- 🔥 Name, email or username
 
 ## Screenshots
 
-![](https://larazeus.com/images/screenshots/inline-chart/inline-chart-1.png)
-![](https://larazeus.com/images/screenshots/inline-chart/inline-chart-2.png)
-![](https://larazeus.com/images/screenshots/inline-chart/inline-chart-3.png)
-![](https://larazeus.com/images/screenshots/inline-chart/inline-chart-4.png)
+![](https://larazeus.com/images/screenshots/boredom/boredom-1.png)
+![](https://larazeus.com/images/screenshots/boredom/boredom-2.png)
+![](https://larazeus.com/images/screenshots/boredom/boredom-3.png)
+![](https://larazeus.com/images/screenshots/boredom/boredom-4.png)
+![](https://larazeus.com/images/screenshots/boredom/boredom-5.png)
+![](https://larazeus.com/images/screenshots/boredom/boredom-6.png)
+![](https://larazeus.com/images/screenshots/boredom/boredom-7.png)
+![](https://larazeus.com/images/screenshots/boredom/boredom-8.png)
 
 ## Support
 
 Available support channels:
 
-* Join our channel in discord [Discord](https://discord.com/channels/883083792112300104/1197986417855430820)
-* Open an issue on [GitHub](https://github.com/lara-zeus/inline-chart/issues)
+* Join our channel in discord [Discord](#)
+* Open an issue on [GitHub](https://github.com/lara-zeus/boredom/issues)
 * Email us using the [contact center](https://larazeus.com/contact-us)

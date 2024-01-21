@@ -5,48 +5,53 @@ weight: 3
 
 ## Installation
 
-Install @zeus Inline Chart by running the following commands in your Laravel project directory.
+Install @zeus Boredom by running the following commands in your Laravel project directory.
 
 ```bash
-composer require lara-zeus/inline-chart
+composer require lara-zeus/boredom
 ```
 
 ## Usage:
 
-### Create a New widget:
-
-- first create a new widget using filament command:
-
-`art make:filament-widget MyTableWidgetChart`
-
-- change the extend of the class to use the abstract:
-
-`\LaraZeus\InlineChart\InlineChartWidget`
-
-- available properties:
+### set the avatar provider in your panel:
 
 ```php
-protected static ?string $maxHeight = '50px';
-
-protected int | string | array $columnSpan = 'full';
-
-protected static ?string $heading = 'Chart';
-
-public ?string $maxWidth = '!w-[150px]';
+->defaultAvatarProvider(
+    \LaraZeus\Boredom\BoringAvatarsProvider::class
+)
 ```
 
-and you can access the current row record using: `$this->record` in your chart data:
+### register the plugin
 
 ```php
-Model::where('child_id',$this->record->id)
+\LaraZeus\Boredom\BoringAvatarPlugin::make()
+    ->variant(Variants::MARBLE)
+    ->size(60)
+    ->square()
+    ->colors(['0A0310','49007E','FF005B','FF7D10','FFB238'])
 ```
 
-### use it in your table:
+## setup your User model
+
+add the trait HasBoringAvatar to your User model:
+
+`use HasBoringAvatar;`
+
+and you can remove the method `getFilamentAvatarUrl`
+
+to overwrite the name:
 
 ```php
-\LaraZeus\InlineChart\Tables\Columns\InlineChart::make('last activities')
-                        ->chart(MiniChart::class)
-                        ->maxWidth('!w-[150px]')
-                        ->description('description')
-                        ->toggleable(),
+public function avatarName(): Attribute
+{
+    return new Attribute(
+        get: fn () => $this->name // or $this->>email or $this->>username or Str::random()
+    );
+}
 ```
+
+to get the avatar outside filament:
+`User::find(1)->avatar_url`
+
+to use it in a resource:
+`ImageColumn::make('avatar_url'),`

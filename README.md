@@ -13,18 +13,29 @@
 
 </p>
 
-## features
+## Features
+
 - 🔥 configurable per panel
-- 🔥 set the variant, size and color
+- 🔥 set Variant (marble, beam, pixel, sunset, ring or bauhaus)
+- 🔥 Custom size
+- 🔥 Custom colors
+- 🔥 Square avatars
+- 🔥 Name, email or username
 
 ## Screenshots
 
 ![](https://larazeus.com/images/screenshots/boredom/boredom-1.png)
 ![](https://larazeus.com/images/screenshots/boredom/boredom-2.png)
+![](https://larazeus.com/images/screenshots/boredom/boredom-3.png)
+![](https://larazeus.com/images/screenshots/boredom/boredom-4.png)
+![](https://larazeus.com/images/screenshots/boredom/boredom-5.png)
+![](https://larazeus.com/images/screenshots/boredom/boredom-6.png)
+![](https://larazeus.com/images/screenshots/boredom/boredom-7.png)
+![](https://larazeus.com/images/screenshots/boredom/boredom-8.png)
 
 ## Demo
 
-> Visit our demo site: https://demo.larazeus.com/admin/components-demo/boredom
+> Visit our demo site: https://demo.larazeus.com/admin/users
 
 ## Full Documentation
 
