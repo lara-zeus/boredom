@@ -1,0 +1,70 @@
+{
+    "name": "lara-zeus/boredom",
+    "description": "Zeus Boredom, use Boring Avatars as the default avatar provider in your FilamentPHP v3 application",
+    "keywords": [
+        "laravel",
+        "lara-zeus",
+        "ui",
+        "avatar",
+        "boring",
+        "panel",
+        "provider",
+        "design",
+        "generator",
+        "filamentphp"
+    ],
+    "homepage": "https://larazeus.com/boredom",
+    "support": {
+        "issues": "https://github.com/lara-zeus/boredom/issues",
+        "source": "https://github.com/lara-zeus/boredom"
+    },
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "php coder",
+            "email": "info@larazeus.com",
+            "role": "Owner"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "filament/filament": "^3.0",
+        "spatie/laravel-package-tools": "^1.16"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.0",
+        "nunomaduro/collision": "^7.0",
+        "nunomaduro/larastan": "^2.0.1",
+        "nunomaduro/phpinsights": "^2.8",
+        "orchestra/testbench": "^8.0",
+        "phpstan/extension-installer": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaraZeus\\Boredom\\": "src"
+        }
+    },
+    "scripts": {
+        "analyse": "vendor/bin/phpstan analyse",
+        "format": "vendor/bin/pint",
+        "pint": "vendor/bin/pint",
+        "test:phpstan": "vendor/bin/phpstan analyse"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "phpstan/extension-installer": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+              "LaraZeus\\Boredom\\BoredomServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
