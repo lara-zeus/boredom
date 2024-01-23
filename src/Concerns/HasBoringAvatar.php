@@ -3,7 +3,6 @@
 namespace LaraZeus\Boredom\Concerns;
 
 use Illuminate\Database\Eloquent\Casts\Attribute;
-use Illuminate\Support\Str;
 use LaraZeus\Boredom\BoringAvatar;
 
 trait HasBoringAvatar
