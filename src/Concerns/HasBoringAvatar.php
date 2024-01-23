@@ -3,7 +3,6 @@
 namespace LaraZeus\Boredom\Concerns;
 
 use Illuminate\Database\Eloquent\Casts\Attribute;
-use Illuminate\Support\Str;
 use LaraZeus\Boredom\BoringAvatar;
 
 trait HasBoringAvatar
@@ -16,7 +15,7 @@ trait HasBoringAvatar
     public function avatarName(): Attribute
     {
         return new Attribute(
-            get: fn () => Str::random()
+            get: fn () => $this->name
         );
     }
 
