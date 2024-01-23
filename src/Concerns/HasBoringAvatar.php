@@ -16,7 +16,7 @@ trait HasBoringAvatar
     public function avatarName(): Attribute
     {
         return new Attribute(
-            get: fn () => Str::random()
+            get: fn () => $this->name
         );
     }
 
