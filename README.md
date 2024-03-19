@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://larazeus.com"><img src="https://larazeus.com/images/boredom-banner.png" /></a>
+<a href="https://larazeus.com"><img src="https://larazeus.com/images/lara-zeus-boredom.png" /></a>
 </p>
 
 <h4 align="center">use Boring Avatars as the default avatar provider in your FilamentPHP v3 application.</h4>
