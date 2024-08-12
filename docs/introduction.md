@@ -20,14 +20,14 @@ weight: 1
 
 ## Screenshots
 
-![](https://larazeus.com/images/screenshots/boredom/boredom-1.png)
-![](https://larazeus.com/images/screenshots/boredom/boredom-2.png)
-![](https://larazeus.com/images/screenshots/boredom/boredom-3.png)
-![](https://larazeus.com/images/screenshots/boredom/boredom-4.png)
-![](https://larazeus.com/images/screenshots/boredom/boredom-5.png)
-![](https://larazeus.com/images/screenshots/boredom/boredom-6.png)
-![](https://larazeus.com/images/screenshots/boredom/boredom-7.png)
-![](https://larazeus.com/images/screenshots/boredom/boredom-8.png)
+![](https://larazeus.com/images/screenshots/boredom/boredom-1.webp)
+![](https://larazeus.com/images/screenshots/boredom/boredom-2.webp)
+![](https://larazeus.com/images/screenshots/boredom/boredom-3.webp)
+![](https://larazeus.com/images/screenshots/boredom/boredom-4.webp)
+![](https://larazeus.com/images/screenshots/boredom/boredom-5.webp)
+![](https://larazeus.com/images/screenshots/boredom/boredom-6.webp)
+![](https://larazeus.com/images/screenshots/boredom/boredom-7.webp)
+![](https://larazeus.com/images/screenshots/boredom/boredom-8.webp)
 
 ## Support
 
