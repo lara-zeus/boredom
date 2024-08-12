@@ -21,14 +21,12 @@ class BoringAvatarPlugin implements Plugin
         return 'zeus-boredom';
     }
 
-    public function register(Panel $panel): void
-    {
-    }
+    public function register(Panel $panel): void {}
 
     public static function make(): static
     {
         // @phpstan-ignore-next-line
-        return new self();
+        return new self;
     }
 
     public static function get(): static
