@@ -26,7 +26,6 @@ use Boring Avatars as the default avatar provider in your FilamentPHP v3 applica
 
 **✨ to learn more about Zeus Boredom, please visit:**
 
-- [Discord](#)
 - [Docs](https://larazeus.com/docs/boredom)
 - [Github](https://github.com/lara-zeus/boredom)
 - [Demo](https://demo.larazeus.com/admin/components-demo/boredom)

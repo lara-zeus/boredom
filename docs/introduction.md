@@ -7,7 +7,7 @@ weight: 1
 
 @zeus use Boring Avatars as the default avatar provider in your FilamentPHP v3 application
 
-**[Demo](https://demo.larazeus.com/admin/components-demo/boredom) · [Github](https://github.com/lara-zeus/boredom) · [Discord](#)**
+**[Demo](https://demo.larazeus.com/admin/components-demo/boredom) · [Github](https://github.com/lara-zeus/boredom)**
 
 ## Features
 
@@ -33,6 +33,5 @@ weight: 1
 
 Available support channels:
 
-* Join our channel in discord [Discord](#)
 * Open an issue on [GitHub](https://github.com/lara-zeus/boredom/issues)
 * Email us using the [contact center](https://larazeus.com/contact-us)
