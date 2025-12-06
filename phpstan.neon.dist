@@ -8,5 +8,9 @@ parameters:
 
     checkOctaneCompatibility: true
     checkModelProperties: true
-    checkMissingIterableValueType: false
-    checkGenericClassInNonGenericObjectType: false
+
+    ignoreErrors:
+        -
+            identifier: trait.unused
+        -
+            identifier: missingType.iterableValue

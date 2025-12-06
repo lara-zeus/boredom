@@ -16,6 +16,8 @@ class BoringAvatarPlugin implements Plugin
 
     protected ?array $colors = null;
 
+    protected ?string $url = null;
+
     public function getId(): string
     {
         return 'zeus-boredom';
@@ -86,5 +88,17 @@ class BoringAvatarPlugin implements Plugin
     public function isSquare(): ?bool
     {
         return $this->square;
+    }
+
+    public function url(?string $url): static
+    {
+        $this->url = $url;
+
+        return $this;
+    }
+
+    public function getUrl(): ?string
+    {
+        return $this->url;
     }
 }

@@ -19,20 +19,20 @@ class BoringAvatar
 
         $colors = BoringAvatarPlugin::get()->getColors() ?? $colors;
         $colors = $colors ?? ['#45B39D', '#F1948A', '#FDAC4B', '#0E0239', '#FFF9F5'];
-        $colors = self::getColors($colors);
+        $allColors = self::getColors($colors);
 
         $variant = BoringAvatarPlugin::get()->getVariant() ?? $variant;
-        $variant = $variant->value;
+        $variantValue = $variant->value;
 
-        $square = (BoringAvatarPlugin::get()->isSquare()) ? 'square' : '';
+        $isSquare = (BoringAvatarPlugin::get()->isSquare()) ? '&square' : '';
 
-        $name = Str::of($name)
+        $fullName = Str::of($name)
             ->trim()
             ->replace(' ', '%20');
 
-        $url = 'https://source.boringavatars.com';
+        $url = BoringAvatarPlugin::get()->getUrl();
 
-        return "{$url}/{$variant}/{$size}/{$name}?colors={$colors}&{$square}";
+        return "{$url}/{$variantValue}/{$size}/{$fullName}?colors={$allColors}{$isSquare}";
     }
 
     /**
