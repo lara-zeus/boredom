@@ -28,6 +28,7 @@ composer require lara-zeus/boredom
     ->variant(Variants::MARBLE)
     ->size(60)
     ->square()
+    ->url('https://domain.ltd')
     ->colors(['0A0310','49007E','FF005B','FF7D10','FFB238'])
 ```
 
