@@ -2,6 +2,15 @@
 
 All notable changes to `Boredom` will be documented in this file
 
+## 3.0.0 - 2026-03-11
+
+### What's Changed
+
+* Bump dependabot/fetch-metadata from 2.4.0 to 2.5.0 by @dependabot[bot] in https://github.com/lara-zeus/boredom/pull/21
+* support filament 5
+
+**Full Changelog**: https://github.com/lara-zeus/boredom/compare/2.1.0...3.0.0
+
 ## 2.1.0 - 2025-12-06
 
 ### What's Changed
